@@ -1,0 +1,725 @@
+[WARNING] - bot - Telegram says: [400 ACCESS_TOKEN_INVALID] - The bot access token is invalid (caused by "auth.ImportBotAuthorization")
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[WARNING] - bot - Telegram says: [400 ACCESS_TOKEN_INVALID] - The bot access token is invalid (caused by "auth.ImportBotAuthorization")
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")
+[WARNING] - bot - Bot tidak dapat Mengambil link invite dari FORCE_SUB_GROUP!
+[WARNING] - bot - Pastikan @Rin_Robot adalah admin di Group Tersebut, Chat ID F-Subs Group Saat Ini: -1002017891577
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")
+[WARNING] - bot - Bot tidak dapat Mengambil link invite dari FORCE_SUB_GROUP!
+[WARNING] - bot - Pastikan @Rin_Robot adalah admin di Group Tersebut, Chat ID F-Subs Group Saat Ini: -1002017891577
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[WARNING] - bot - Peer id invalid: 1001231901555
+[WARNING] - bot - Bot tidak dapat Mengambil link invite dari FORCE_SUB_CHANNEL!
+[WARNING] - bot - Pastikan @Rin_Robot adalah admin di Channel Tersebut, Chat ID F-Subs Channel Saat Ini: 1001231901555
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")
+[WARNING] - bot - Bot tidak dapat Mengambil link invite dari FORCE_SUB_GROUP!
+[WARNING] - bot - Pastikan @Rin_Robot adalah admin di Group Tersebut, Chat ID F-Subs Group Saat Ini: -1002017891577
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")
+[WARNING] - bot - Bot tidak dapat Mengambil link invite dari FORCE_SUB_CHANNEL!
+[WARNING] - bot - Pastikan @Rin_Robot adalah admin di Channel Tersebut, Chat ID F-Subs Channel Saat Ini: -1002017891577
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[ERROR] - pyrogram.dispatcher - Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/pyrogram/storage/sqlite_storage.py", line 199, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002017891577'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 341, in handler_worker
+    if await handler.check(self.client, parsed_update):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/pyromod/listen/message_handler.py", line 63, in check
+    handler_does_match = await self.filters(client, message)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/pyrogram/filters.py", line 66, in __call__
+    x = await self.base(client, update)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/pyrogram/filters.py", line 66, in __call__
+    x = await self.base(client, update)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/pyrogram/filters.py", line 79, in __call__
+    y = await self.other(client, update)
+  File "/workspaces/NOTES/File/helper_func.py", line 56, in is_subscribed
+    member = await client.get_chat_member(chat_id=FORCE_SUB_GROUP, user_id=user_id)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/pyrogram/methods/chats/get_chat_member.py", line 55, in get_chat_member
+    chat = await self.resolve_peer(chat_id)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 111, in resolve_peer
+    await self.invoke(
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 94, in invoke
+    r = await session.invoke(
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/pyrogram/session/session.py", line 401, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/pyrogram/session/session.py", line 369, in send
+    RPCError.raise_it(result, type(data))
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ChannelInvalid: Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")
+[ERROR] - pyrogram.dispatcher - 'Bot' object has no attribute 'invitelink'
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 357, in handler_worker
+    await self.loop.run_in_executor(
+  File "/usr/local/python/3.10.8/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/pyrogram/sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+  File "/usr/local/python/3.10.8/lib/python3.10/concurrent/futures/_base.py", line 458, in result
+    return self.__get_result()
+  File "/usr/local/python/3.10.8/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/pyromod/listen/message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/workspaces/NOTES/File/plugins/start.py", line 155, in not_joined
+    buttons = fsub_button(client, message)
+  File "/workspaces/NOTES/File/plugins/button.py", line 94, in fsub_button
+    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
+AttributeError: 'Bot' object has no attribute 'invitelink'
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")
+[WARNING] - bot - Bot tidak dapat Mengambil link invite dari FORCE_SUB_GROUP!
+[WARNING] - bot - Pastikan @Rin_Robot adalah admin di Group Tersebut, Chat ID F-Subs Group Saat Ini: -1002017891577
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")
+[WARNING] - bot - Bot tidak dapat Mengambil link invite dari FORCE_SUB_GROUP!
+[WARNING] - bot - Pastikan @Rin_Robot adalah admin di Group Tersebut, Chat ID F-Subs Group Saat Ini: -1002017891577
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")
+[WARNING] - bot - Bot tidak dapat Mengambil link invite dari FORCE_SUB_GROUP!
+[WARNING] - bot - Pastikan @Rin_Robot adalah admin di Group Tersebut, Chat ID F-Subs Group Saat Ini: -1002017891577
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[WARNING] - bot - Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")
+[WARNING] - bot - Bot tidak dapat Mengambil link invite dari FORCE_SUB_GROUP!
+[WARNING] - bot - Pastikan @Rin_Robot adalah admin di Group Tersebut, Chat ID F-Subs Group Saat Ini: -1002017891577
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 BERHASIL DIAKTIFKAN! 🔥]
+
+BOT Dibuat oleh @816300798
+Jika @816300798 Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/SharingUserbot
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 BERHASIL DIAKTIFKAN! 🔥]
+
+BOT Dibuat oleh @816300798
+Jika @816300798 Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/SharingUserbot
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 BERHASIL DIAKTIFKAN! 🔥]
+
+BOT Dibuat oleh @816300798
+Jika @816300798 Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/SharingUserbot
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[WARNING] - bot - Telegram says: [403 CHAT_ADMIN_REQUIRED] - The method requires chat admin privileges (caused by "messages.ExportChatInvite")
+[WARNING] - bot - Bot tidak dapat Mengambil link invite dari FORCE_SUB_GROUP!
+[WARNING] - bot - Pastikan @Rin_Robot adalah admin di Group Tersebut, Chat ID F-Subs Group Saat Ini: -1002017891577
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[WARNING] - bot - Telegram says: [403 CHAT_ADMIN_REQUIRED] - The method requires chat admin privileges (caused by "messages.ExportChatInvite")
+[WARNING] - bot - Bot tidak dapat Mengambil link invite dari FORCE_SUB_GROUP!
+[WARNING] - bot - Pastikan @Rin_Robot adalah admin di Group Tersebut, Chat ID F-Subs Group Saat Ini: -1002017891577
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[WARNING] - bot - Telegram says: [400 CHANNEL_PRIVATE] - The channel/supergroup is not accessible (caused by "channels.GetFullChannel")
+[WARNING] - bot - Bot tidak dapat Mengambil link invite dari FORCE_SUB_CHANNEL!
+[WARNING] - bot - Pastikan @Rin_Robot adalah admin di Channel Tersebut, Chat ID F-Subs Channel Saat Ini: -1001231901555
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[WARNING] - bot - Telegram says: [400 CHANNEL_PRIVATE] - The channel/supergroup is not accessible (caused by "channels.GetFullChannel")
+[WARNING] - bot - Bot tidak dapat Mengambil link invite dari FORCE_SUB_CHANNEL!
+[WARNING] - bot - Pastikan @Rin_Robot adalah admin di Channel Tersebut, Chat ID F-Subs Channel Saat Ini: -1001231901555
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[WARNING] - bot - Telegram says: [400 CHANNEL_PRIVATE] - The channel/supergroup is not accessible (caused by "channels.GetFullChannel")
+[WARNING] - bot - Bot tidak dapat Mengambil link invite dari FORCE_SUB_CHANNEL!
+[WARNING] - bot - Pastikan @Rin_Robot adalah admin di Channel Tersebut, Chat ID F-Subs Channel Saat Ini: -1001231901555
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[WARNING] - bot - Telegram says: [403 CHAT_WRITE_FORBIDDEN] - You don't have rights to send messages in this chat (caused by "messages.ExportChatInvite")
+[WARNING] - bot - Bot tidak dapat Mengambil link invite dari FORCE_SUB_GROUP!
+[WARNING] - bot - Pastikan @Rin_Robot adalah admin di Group Tersebut, Chat ID F-Subs Group Saat Ini: -1002017891577
+[INFO] - bot - Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 BERHASIL DIAKTIFKAN! 🔥]
+
+BOT Dibuat oleh @816300798
+Jika @816300798 Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/SharingUserbot
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 BERHASIL DIAKTIFKAN! 🔥]
+
+BOT Dibuat oleh @816300798
+Jika @816300798 Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/SharingUserbot
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 BERHASIL DIAKTIFKAN! 🔥]
+
+BOT Dibuat oleh @816300798
+Jika @816300798 Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/SharingUserbot
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 BERHASIL DIAKTIFKAN! 🔥]
+
+BOT Dibuat oleh @816300798
+Jika @816300798 Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/SharingUserbot
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @816300798
+If @816300798 requires assistance, please ask in the group https://t.me/SharingUserbot
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @816300798
+If @816300798 requires assistance, please ask in the group https://t.me/SharingUserbot
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/SharingUserbot
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: FileShareBot
+└ Chat ID: -1002043443685
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.

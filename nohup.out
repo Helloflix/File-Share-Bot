@@ -11,8 +11,119 @@
 └ Chat ID: -1002017891577
 ——
 [INFO] - bot - CHANNEL_ID Database detected!
-┌ Title: FileShareBot
-└ Chat ID: -1002043443685
+┌ Title: Data base
+└ Chat ID: -1001985859676
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[INFO] - root - Stop signal received (SIGTERM). Exiting...
+[INFO] - bot - Bot stopped.
+Pyromod is working! If you like pyromod, please star it at https://github.com/usernein/pyromod
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: ANIME IN HINDI
+└ Chat ID: -1001231901555
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: Data base
+└ Chat ID: -1001985859676
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[INFO] - root - Stop signal received (SIGTERM). Exiting...
+[INFO] - bot - Bot stopped.
+Pyromod is working! If you like pyromod, please star it at https://github.com/usernein/pyromod
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: HD MOVIES AND WEB SERIES
+└ Chat ID: -1002097796598
+——
+[ERROR] - pyrogram.dispatcher - 'Bot' object has no attribute 'invitelink2'
+Traceback (most recent call last):
+  File "/home/ubuntu/Father/venv/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "/usr/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/home/ubuntu/Father/venv/lib/python3.10/site-packages/pyrogram/sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 458, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/ubuntu/Father/venv/lib/python3.10/site-packages/pyromod/listen/message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/home/ubuntu/Father/File-Share-Bot/plugins/start.py", line 152, in not_joined
+    buttons = fsub_button(client, message)
+  File "/home/ubuntu/Father/File-Share-Bot/plugins/button.py", line 93, in fsub_button
+    InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ-2", url=client.invitelink2),
+AttributeError: 'Bot' object has no attribute 'invitelink2'
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: 𝘼𝙉𝙄𝙈𝙀 𝙇𝙊𝙑𝙀𝙍𝙎
+└ Chat ID: -1002017891577
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: Data base
+└ Chat ID: -1001985859676
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[INFO] - root - Stop signal received (SIGTERM). Exiting...
+[INFO] - bot - Bot stopped.
+Pyromod is working! If you like pyromod, please star it at https://github.com/usernein/pyromod
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: HD MOVIES AND WEB SERIES
+└ Chat ID: -1002097796598
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: NEW ENGLISH ANIMES
+└ Chat ID: -1002003319470
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: Data base
+└ Chat ID: -1001985859676
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[INFO] - root - Stop signal received (SIGTERM). Exiting...
+[INFO] - bot - Bot stopped.
+Pyromod is working! If you like pyromod, please star it at https://github.com/usernein/pyromod
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: HD MOVIES AND WEB SERIES
+└ Chat ID: -1002097796598
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: NEW ENGLISH ANIMES
+└ Chat ID: -1002003319470
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: Data base
+└ Chat ID: -1001985859676
 ——
 [INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
 

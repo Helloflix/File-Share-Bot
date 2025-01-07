@@ -81,3 +81,4 @@ async def restart_bot(_, message: Message):
         return
     await msg.edit_text("✅ Bot has restarted !\n\n")
     os.system(f"kill -9 {os.getpid()} && bash start")
+

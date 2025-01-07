@@ -17,7 +17,7 @@ APP_ID = int(os.environ.get("APP_ID", "1161985"))
 API_HASH = os.environ.get("API_HASH", "6dc154cfac22dab52e6ae4fd0fe55a3b")
 
 # Channel ID for the database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002043443685"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001985859676"))
 
 # Owner's name
 OWNER = os.environ.get("OWNER", "5415119496")
@@ -36,8 +36,8 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://aywybryd:YQtdUHNo0ApjN7fdMGqaf6J9BsWBvdMW@jelani.db.elephantsql.com/aywybryd")
 
 # ID of the channel or group for mandatory subscription
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001231901555"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1002017891577"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002097796598"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1002003319470"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 

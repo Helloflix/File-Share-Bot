@@ -275,3 +275,87 @@ If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_
 
 Bot created by @5415119496
 If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[WARNING] - bot - (psycopg2.OperationalError) connection to server at "jelani.db.elephantsql.com" (34.232.198.49), port 5432 failed: Connection timed out
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[INFO] - bot - Bot stopped. Join the group https://t.me/Beasts_Community for assistance.
+[WARNING] - bot - (psycopg2.OperationalError) could not translate host name "dpg-cuo9cstds78s738h7jhg-a" to address: Name or service not known
+
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[INFO] - bot - Bot stopped. Join the group https://t.me/Beasts_Community for assistance.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: HD MOVIES AND WEB SERIES
+└ Chat ID: -1002097796598
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: NEW ENGLISH ANIMES
+└ Chat ID: -1002003319470
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: Data base
+└ Chat ID: -1001985859676
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[ERROR] - pyrogram.dispatcher - 'BadMsgNotification' object has no attribute 'set'
+Traceback (most recent call last):
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 214, in handler_worker
+    await parser(update, users, chats)
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 68, in message_parser
+    await pyrogram.types.Message._parse(self.client, update.message, users, chats,
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/types/messages_and_media/message.py", line 703, in _parse
+    sticker = await types.Sticker._parse(client, doc, attributes)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/types/messages_and_media/sticker.py", line 165, in _parse
+    set_name = await Sticker._get_sticker_set_name(client.invoke, input_sticker_set_id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/types/messages_and_media/sticker.py", line 133, in _get_sticker_set_name
+    )).set.short_name
+       ^^^
+AttributeError: 'BadMsgNotification' object has no attribute 'set'
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: HD MOVIES AND WEB SERIES
+└ Chat ID: -1002097796598
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: NEW ENGLISH ANIMES
+└ Chat ID: -1002003319470
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: Data base
+└ Chat ID: -1001985859676
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.

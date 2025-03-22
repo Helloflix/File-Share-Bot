@@ -359,3 +359,689 @@ Bot created by @5415119496
 If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
 [INFO] - root - Stop signal received (SIGINT). Exiting...
 [INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: HD MOVIES AND WEB SERIES
+└ Chat ID: -1002097796598
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: NEW ENGLISH ANIMES
+└ Chat ID: -1002003319470
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: Data base
+└ Chat ID: -1001985859676
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[WARNING] - asyncio - socket.send() raised exception.
+[ERROR] - pyrogram.dispatcher - Telegram says: [400 USER_IS_BLOCKED] - The user blocked you (caused by "messages.SendMessage")
+Traceback (most recent call last):
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyromod/listen/message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/home/sharmaji/bot/File-Share-Bot/plugins/start.py", line 153, in not_joined
+    await message.reply(
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/types/messages_and_media/message.py", line 970, in reply_text
+    return await self._client.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/methods/messages/send_message.py", line 126, in send_message
+    r = await self.invoke(
+        ^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/methods/advanced/invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/session/session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.UserIsBlocked: Telegram says: [400 USER_IS_BLOCKED] - The user blocked you (caused by "messages.SendMessage")
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[ERROR] - pyrogram.dispatcher - 'BadMsgNotification' object has no attribute 'users'
+Traceback (most recent call last):
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyromod/listen/message_handler.py", line 63, in check
+    handler_does_match = await self.filters(client, message)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/filters.py", line 66, in __call__
+    x = await self.base(client, update)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/filters.py", line 66, in __call__
+    x = await self.base(client, update)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/filters.py", line 79, in __call__
+    y = await self.other(client, update)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/helper_func.py", line 57, in is_subscribed
+    member = await client.get_chat_member(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/methods/chats/get_chat_member.py", line 87, in get_chat_member
+    users = {i.id: i for i in r.users}
+                              ^^^^^^^
+AttributeError: 'BadMsgNotification' object has no attribute 'users'
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[ERROR] - pyrogram.dispatcher - 'BadMsgNotification' object has no attribute 'updates'
+Traceback (most recent call last):
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyromod/listen/message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/home/sharmaji/bot/File-Share-Bot/plugins/start.py", line 153, in not_joined
+    await message.reply(
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/types/messages_and_media/message.py", line 970, in reply_text
+    return await self._client.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/methods/messages/send_message.py", line 168, in send_message
+    for i in r.updates:
+             ^^^^^^^^^
+AttributeError: 'BadMsgNotification' object has no attribute 'updates'
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[ERROR] - pyrogram.dispatcher - 'BadMsgNotification' object has no attribute 'users'
+Traceback (most recent call last):
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 214, in handler_worker
+    await parser(update, users, chats)
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 90, in callback_query_parser
+    await pyrogram.types.CallbackQuery._parse(self.client, update, users),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/types/bots_and_keyboards/callback_query.py", line 101, in _parse
+    message = await client.get_messages(chat_id, message_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/methods/messages/get_messages.py", line 117, in get_messages
+    messages = await utils.parse_messages(self, r, replies=replies)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/utils.py", line 92, in parse_messages
+    users = {i.id: i for i in messages.users}
+                              ^^^^^^^^^^^^^^
+AttributeError: 'BadMsgNotification' object has no attribute 'users'
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[ERROR] - pyrogram.dispatcher - 'BadMsgNotification' object has no attribute 'users'
+Traceback (most recent call last):
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 214, in handler_worker
+    await parser(update, users, chats)
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 90, in callback_query_parser
+    await pyrogram.types.CallbackQuery._parse(self.client, update, users),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/types/bots_and_keyboards/callback_query.py", line 101, in _parse
+    message = await client.get_messages(chat_id, message_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/methods/messages/get_messages.py", line 117, in get_messages
+    messages = await utils.parse_messages(self, r, replies=replies)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/utils.py", line 92, in parse_messages
+    users = {i.id: i for i in messages.users}
+                              ^^^^^^^^^^^^^^
+AttributeError: 'BadMsgNotification' object has no attribute 'users'
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.session.session - [Bot] Waiting for 5 seconds before continuing (required by "messages.EditMessage")
+[WARNING] - pyrogram.session.session - [Bot] Waiting for 5 seconds before continuing (required by "messages.EditMessage")
+[WARNING] - pyrogram.session.session - [Bot] Waiting for 5 seconds before continuing (required by "messages.EditMessage")
+[WARNING] - pyrogram.session.session - [Bot] Waiting for 5 seconds before continuing (required by "messages.SendMedia")
+[WARNING] - pyrogram.session.session - [Bot] Waiting for 4 seconds before continuing (required by "messages.EditMessage")
+[WARNING] - pyrogram.session.session - [Bot] Waiting for 4 seconds before continuing (required by "messages.EditMessage")
+[WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.EditMessage")
+[WARNING] - pyrogram.session.session - [Bot] Waiting for 3 seconds before continuing (required by "messages.EditMessage")
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[ERROR] - pyrogram.dispatcher - 'BadMsgNotification' object has no attribute 'updates'
+Traceback (most recent call last):
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyromod/listen/message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/home/sharmaji/bot/File-Share-Bot/plugins/start.py", line 153, in not_joined
+    await message.reply(
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/types/messages_and_media/message.py", line 970, in reply_text
+    return await self._client.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/methods/messages/send_message.py", line 168, in send_message
+    for i in r.updates:
+             ^^^^^^^^^
+AttributeError: 'BadMsgNotification' object has no attribute 'updates'
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[ERROR] - pyrogram.dispatcher - 'BadMsgNotification' object has no attribute 'users'
+Traceback (most recent call last):
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 214, in handler_worker
+    await parser(update, users, chats)
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 90, in callback_query_parser
+    await pyrogram.types.CallbackQuery._parse(self.client, update, users),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/types/bots_and_keyboards/callback_query.py", line 101, in _parse
+    message = await client.get_messages(chat_id, message_id)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/methods/messages/get_messages.py", line 117, in get_messages
+    messages = await utils.parse_messages(self, r, replies=replies)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/utils.py", line 120, in parse_messages
+    reply_messages = await client.get_messages(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/methods/messages/get_messages.py", line 117, in get_messages
+    messages = await utils.parse_messages(self, r, replies=replies)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/utils.py", line 92, in parse_messages
+    users = {i.id: i for i in messages.users}
+                              ^^^^^^^^^^^^^^
+AttributeError: 'BadMsgNotification' object has no attribute 'users'
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[WARNING] - pyrogram.types.messages_and_media.message - Empty messages cannot be copied.
+[INFO] - root - Stop signal received (SIGTERM). Exiting...
+[INFO] - bot - Bot stopped.
+[ERROR] - pyrogram.dispatcher - 'Bot' object has no attribute 'invitelink'
+Traceback (most recent call last):
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyromod/listen/message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/home/sharmaji/bot/File-Share-Bot/plugins/start.py", line 130, in start_command
+    out = start_button(client)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/plugins/button.py", line 44, in start_button
+    InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
+                                             ^^^^^^^^^^^^^^^^^
+AttributeError: 'Bot' object has no attribute 'invitelink'
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: HD MOVIES AND WEB SERIES
+└ Chat ID: -1002097796598
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: NEW ENGLISH ANIMES
+└ Chat ID: -1002003319470
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: Data base
+└ Chat ID: -1001985859676
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: HD MOVIES AND WEB SERIES
+└ Chat ID: -1002097796598
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: NEW ENGLISH ANIMES
+└ Chat ID: -1002003319470
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: Data base
+└ Chat ID: -1001985859676
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[ERROR] - pyrogram.dispatcher - 'BadMsgNotification' object has no attribute 'updates'
+Traceback (most recent call last):
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyromod/listen/message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/home/sharmaji/bot/File-Share-Bot/plugins/start.py", line 219, in send_text
+    msg = await message.reply(
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/types/messages_and_media/message.py", line 970, in reply_text
+    return await self._client.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/methods/messages/send_message.py", line 168, in send_message
+    for i in r.updates:
+             ^^^^^^^^^
+AttributeError: 'BadMsgNotification' object has no attribute 'updates'
+[WARNING] - pyrogram.session.session - BadMsgNotification: [33] The msg_seqno is too high.
+[ERROR] - pyrogram.dispatcher - 'BadMsgNotification' object has no attribute 'users'
+Traceback (most recent call last):
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyromod/listen/message_handler.py", line 63, in check
+    handler_does_match = await self.filters(client, message)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/filters.py", line 66, in __call__
+    x = await self.base(client, update)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/filters.py", line 66, in __call__
+    x = await self.base(client, update)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/filters.py", line 79, in __call__
+    y = await self.other(client, update)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/helper_func.py", line 53, in is_subscribed
+    member = await client.get_chat_member(chat_id=FORCE_SUB_GROUP, user_id=user_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/methods/chats/get_chat_member.py", line 87, in get_chat_member
+    users = {i.id: i for i in r.users}
+                              ^^^^^^^
+AttributeError: 'BadMsgNotification' object has no attribute 'users'
+[WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[WARNING] - pyrogram.connection.connection - Connection failed! Trying again...
+[WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[WARNING] - pyrogram.connection.connection - Connection failed! Trying again...
+[WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[WARNING] - pyrogram.connection.connection - Connection failed! Trying again...
+[WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[WARNING] - pyrogram.connection.connection - Connection failed! Trying again...
+[WARNING] - pyrogram.connection.connection - Unable to connect due to network issues: Connection timed out
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
+[ERROR] - pyrogram.dispatcher - 'Bot' object has no attribute 'invitelink'
+Traceback (most recent call last):
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyrogram/sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/sharmaji/bot/File-Share-Bot/venv/lib/python3.12/site-packages/pyromod/listen/message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "/home/sharmaji/bot/File-Share-Bot/plugins/start.py", line 130, in start_command
+    out = start_button(client)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/sharmaji/bot/File-Share-Bot/plugins/button.py", line 44, in start_button
+    InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
+                                             ^^^^^^^^^^^^^^^^^
+AttributeError: 'Bot' object has no attribute 'invitelink'
+[INFO] - bot - TG_BOT_TOKEN detected!
+┌ First Name: RIN
+└ Username: @Rin_Robot
+——
+[INFO] - bot - FORCE_SUB_CHANNEL detected!
+┌ Title: HD MOVIES AND WEB SERIES
+└ Chat ID: -1002097796598
+——
+[INFO] - bot - FORCE_SUB_GROUP detected!
+┌ Title: NEW ENGLISH ANIMES
+└ Chat ID: -1002003319470
+——
+[INFO] - bot - CHANNEL_ID Database detected!
+┌ Title: Data base
+└ Chat ID: -1001985859676
+——
+[INFO] - bot - [🔥 ACTIVATED SUCCESSFULLY! 🔥]
+
+Bot created by @5415119496
+If @5415119496 requires assistance, please ask in the group https://t.me/Beasts_Community
+[INFO] - root - Stop signal received (SIGINT). Exiting...
+[INFO] - bot - Bot stopped.
